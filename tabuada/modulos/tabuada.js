@@ -40,15 +40,19 @@ const testarNumero = function(valorInicial, valorFinal, contagemInicial, contage
 
     if(isNaN == inicial || isNaN == final){
         console.log('Digite um número')
-    }else if(inicial >100 || inicial < 2){
+    }
+    if(inicial >100 || inicial < 2){
         console.log('Voce nao digitou um numero valido para a tabuada calcular')
-    }else if(final >100 || final <2){
+    }if(final >100 || final <2){
         console.log('Voce nao digitou um numero valido para a tabuada calcular')
-    }else if( inicial == ''|| final == ''){
+    }
+    if( inicial == ''|| final == ''){
         console.log('A entrada de dados esta vazia, favor digitar os numeros')
-    }else if(contIni >50 || contIni<1){
+    }
+    if(contIni >50 || contIni<1){
         console.log('Sua contagem não é valida')
-    }else if(contFin > 50 || contFin <1){
+    }
+    if(contFin > 50 || contFin <1){
         console.log('Sua contagem não é valida')
     }
 
